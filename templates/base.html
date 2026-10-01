@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Café Aroma{% endblock %}</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+</head>
+
+<body>
+
+    {# Encabezado reutilizable #}
+    {% include "includes/header.html" %}
+
+    {# Barra de navegación reutilizable #}
+    {% include "includes/navbar.html" %}
+
+    {# Aquí cada página coloca su propio contenido #}
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {# Pie de página reutilizable #}
+    {% include "includes/footer.html" %}
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

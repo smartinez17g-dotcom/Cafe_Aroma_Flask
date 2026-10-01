@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+Contacto - Café Aroma
+{% endblock %}
+
+{% block content %}
+
+<section class="contacto">
+
+    <h1>Contáctanos</h1>
+
+    <p>
+        ¿Quieres realizar un pedido? Déjanos tus datos.
+    </p>
+
+    <form id="formulario">
+
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required>
+
+        <label>Correo:</label>
+        <input type="email" name="correo" required>
+
+        <label>Mensaje:</label>
+        <textarea name="mensaje" required></textarea>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+    </form>
+
+</section>
+
+{% endblock %}

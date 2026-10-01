@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+Inicio - Café Aroma
+{% endblock %}
+
+{% block content %}
+
+<section class="inicio">
+    <h1>Bienvenido a Café Aroma</h1>
+
+    <h2>El sabor que comienza tu día</h2>
+
+    <p>
+        Disfruta del mejor café preparado con pasión y dedicación.
+    </p>
+
+    <a href="{{ url_for('servicios') }}" class="boton">
+        Ver nuestros servicios
+    </a>
+</section>
+
+<section class="nosotros">
+    <h2>Nosotros</h2>
+
+    <p>
+        En Café Aroma ofrecemos productos de calidad y una experiencia
+        agradable para todos nuestros clientes.
+    </p>
+</section>
+
+{% endblock %}

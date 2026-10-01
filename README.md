@@ -1,7 +1,7 @@
 # Café Aroma - Prototipo web modular con Flask
 
 **Asignatura:** Fundamentos de programación web - UNIMINUTO
-**Autor(es):** [ESCRIBE AQUÍ TU NOMBRE Y EL DE TU COMPAÑERO, SI LO HAY]
+**Autor(es):** [Sergio Martinez y Steven Mendez]
 
 ## Descripción
 
@@ -45,7 +45,7 @@ Cafe_Aroma_Flask/
 1. Clonar el repositorio:
 
 ```
-git clone [URL-DE-TU-REPOSITORIO]
+git clone [[URL-DE-TU-REPOSITORIO](https://github.com/TU-USUARIO/Cafe_Aroma_Flask)]
 cd Cafe_Aroma_Flask
 ```
 
